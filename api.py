@@ -23,7 +23,7 @@ def api():
     data = {
         "current_day": get_current_day(),
         "utc_time": get_utc_time(),
-        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
+        "github_file_url": "https://github.com/TolulopeJoel/HNG/blob/main/api.py",
         "github_repo_url": "https://github.com/TolulopeJoel/HNG",
         "status_code": 200,
     }
