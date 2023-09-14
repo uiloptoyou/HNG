@@ -146,7 +146,7 @@ Here are some sample API requests and responses:
 
 **Request**:
 
-```json
+```
 POST /api/
 {
   "name": "Alice Johnson",
@@ -155,7 +155,7 @@ POST /api/
 
 **Response**:
 
-```json
+```
 201 Created
 {
   "id": 2,
@@ -167,13 +167,13 @@ POST /api/
 
 **Request**:
 
-```json
+```
 GET /api/2/
 ```
 
 **Response**:
 
-```json
+```
 200 OK
 {
   "id": 2,
@@ -185,7 +185,7 @@ GET /api/2/
 
 **Request**:
 
-```json
+```
 PUT /api/2/
 {
   "name": "Updated Name",
@@ -194,7 +194,7 @@ PUT /api/2/
 
 **Response**:
 
-```json
+```
 200 OK
 {
   "id": 2,
@@ -207,23 +207,22 @@ PUT /api/2/
 
 **Request**:
 
-```json
+```
 DELETE /api/2/
 ```
 
 **Response**:
 
-```json
+```
 204 No Content
 ```
 
+
 #### UML Diagram
 
-![Class Diagram](https://drive.google.com/file/d/1h76E0frnNBlmMC54sGkCAA-CeK0MRpDi/view?usp=sharing)
+![Class Diagram)](https://github.com/TolulopeJoel/HNG/assets/95661346/4bdf71d1-cf9c-4490-90c5-04693de9417e)
 
-https://drive.google.com/file/d/1h76E0frnNBlmMC54sGkCAA-CeK0MRpDi/view?usp=sharing
-
-This UML class diagram represents the structure and relationships of key classes and models in our API. It illustrates the 'Person' model and its associations with other classes.
+This UML class diagram represents the structure and relationships of key classes and models in the API. It illustrates the 'Person' model and its associations with other classes.
 
 
 ## Testing the API
