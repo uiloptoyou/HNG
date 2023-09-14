@@ -68,7 +68,7 @@ This document provides an overview of the RESTful API for managing a "person" re
    python manage.py runserver
    ```
 
-The API should now be running locally at `https://person.onrender.com/api/`.
+The API should now be running at `https://person-ffa4.onrender.com`.
 
 ## Endpoints
 
