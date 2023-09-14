@@ -1,7 +1,7 @@
 import requests
 import json
 
-base_url = "http://localhost:8000/api/"
+base_endpoint = "https://person-ffa4.onrender.com/api/"
 
 
 def print_response(response):
@@ -14,7 +14,7 @@ def print_response(response):
 
 
 def create_person(data):
-    endpoint = base_url
+    endpoint = base_endpoint
     response = requests.post(endpoint, json=data)
     print("Add Person:")
     print_response(response)
@@ -22,21 +22,21 @@ def create_person(data):
 
 
 def retrieve_person(person_id):
-    endpoint = f"{base_url}{person_id}/"
+    endpoint = f"{base_endpoint}{person_id}/"
     response = requests.get(endpoint)
     print("Retrieve Person:")
     print_response(response)
 
 
 def update_person(person_id, data):
-    endpoint = f"{base_url}{person_id}/"
+    endpoint = f"{base_endpoint}{person_id}/"
     response = requests.put(endpoint, json=data)
     print("Update Person:")
     print_response(response)
 
 
 def delete_person(person_id):
-    endpoint = f"{base_url}{person_id}/"
+    endpoint = f"{base_endpoint}{person_id}/"
     response = requests.delete(endpoint)
     print("Delete Person:")
     print_response(response)
