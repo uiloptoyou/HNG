@@ -6,6 +6,7 @@ cloudinary
 cryptography
 dj-database-url
 Django
+django-cors-headers
 djangorestframework
 environs
 gunicorn
